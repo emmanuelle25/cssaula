@@ -1,0 +1,66 @@
+/* Definindo estilo para o header */
+header {
+    background-color: #4CAF50; /* Verde escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Definindo estilo para o nav */
+nav {
+    background-color: #333; /* Cinza escuro */
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Definindo estilo para a section */
+section {
+    background-color: #f4f4f4; /* Cinza claro */
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #4CAF50; /* Verde escuro */
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Definindo estilo para o footer */
+footer {
+    background-color: #333; /* Cinza escuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
